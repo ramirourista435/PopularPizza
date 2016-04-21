@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E62D0DD1CC9288100395958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D0DC1CC9288100395958 /* main.m */; };
+		6E62D0E01CC9288100395958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D0DF1CC9288100395958 /* AppDelegate.m */; };
+		6E62D0E31CC9288100395958 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D0E21CC9288100395958 /* ViewController.m */; };
+		6E62D0E61CC9288100395958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E62D0E41CC9288100395958 /* Main.storyboard */; };
+		6E62D0E81CC9288100395958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E62D0E71CC9288100395958 /* Assets.xcassets */; };
+		6E62D0EB1CC9288100395958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E62D0E91CC9288100395958 /* LaunchScreen.storyboard */; };
+		6E62D0F61CC9288100395958 /* PopularPizzaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D0F51CC9288100395958 /* PopularPizzaTests.m */; };
+		6E62D1041CC928C200395958 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D1031CC928C200395958 /* Order.m */; };
+		6E62D1071CC9291300395958 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D1061CC9291300395958 /* Parser.m */; };
+		6E62D10A1CC92B4B00395958 /* FrequencyCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D1091CC92B4B00395958 /* FrequencyCalculator.m */; };
+		6E62D10E1CC93FC100395958 /* pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E62D10D1CC93FC100395958 /* pizzas.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E62D0F21CC9288100395958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E62D0D01CC9288100395958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E62D0D71CC9288100395958;
+			remoteInfo = PopularPizza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E62D0D81CC9288100395958 /* PopularPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E62D0DC1CC9288100395958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E62D0DE1CC9288100395958 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E62D0DF1CC9288100395958 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E62D0E11CC9288100395958 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E62D0E21CC9288100395958 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E62D0E51CC9288100395958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E62D0E71CC9288100395958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E62D0EA1CC9288100395958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E62D0EC1CC9288100395958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E62D0F11CC9288100395958 /* PopularPizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopularPizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E62D0F51CC9288100395958 /* PopularPizzaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopularPizzaTests.m; sourceTree = "<group>"; };
+		6E62D0F71CC9288100395958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E62D1021CC928C200395958 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = Models/Order.h; sourceTree = "<group>"; };
+		6E62D1031CC928C200395958 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = Models/Order.m; sourceTree = "<group>"; };
+		6E62D1051CC9291300395958 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Parser.h; path = Managers/Parser.h; sourceTree = "<group>"; };
+		6E62D1061CC9291300395958 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Parser.m; path = Managers/Parser.m; sourceTree = "<group>"; };
+		6E62D1081CC92B4B00395958 /* FrequencyCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrequencyCalculator.h; path = Managers/FrequencyCalculator.h; sourceTree = "<group>"; };
+		6E62D1091CC92B4B00395958 /* FrequencyCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrequencyCalculator.m; path = Managers/FrequencyCalculator.m; sourceTree = "<group>"; };
+		6E62D10D1CC93FC100395958 /* pizzas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizzas.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E62D0D51CC9288100395958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E62D0EE1CC9288100395958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E62D0CF1CC9288100395958 = {
+			isa = PBXGroup;
+			children = (
+				6E62D0DA1CC9288100395958 /* PopularPizza */,
+				6E62D0F41CC9288100395958 /* PopularPizzaTests */,
+				6E62D0D91CC9288100395958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E62D0D91CC9288100395958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E62D0D81CC9288100395958 /* PopularPizza.app */,
+				6E62D0F11CC9288100395958 /* PopularPizzaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E62D0DA1CC9288100395958 /* PopularPizza */ = {
+			isa = PBXGroup;
+			children = (
+				6E62D1011CC928B200395958 /* Models */,
+				6E62D1001CC928A900395958 /* Managers */,
+				6E62D0DE1CC9288100395958 /* AppDelegate.h */,
+				6E62D0DF1CC9288100395958 /* AppDelegate.m */,
+				6E62D0E11CC9288100395958 /* ViewController.h */,
+				6E62D0E21CC9288100395958 /* ViewController.m */,
+				6E62D0E41CC9288100395958 /* Main.storyboard */,
+				6E62D0E71CC9288100395958 /* Assets.xcassets */,
+				6E62D0E91CC9288100395958 /* LaunchScreen.storyboard */,
+				6E62D0EC1CC9288100395958 /* Info.plist */,
+				6E62D0DB1CC9288100395958 /* Supporting Files */,
+			);
+			path = PopularPizza;
+			sourceTree = "<group>";
+		};
+		6E62D0DB1CC9288100395958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E62D10D1CC93FC100395958 /* pizzas.json */,
+				6E62D0DC1CC9288100395958 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E62D0F41CC9288100395958 /* PopularPizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E62D0F51CC9288100395958 /* PopularPizzaTests.m */,
+				6E62D0F71CC9288100395958 /* Info.plist */,
+			);
+			path = PopularPizzaTests;
+			sourceTree = "<group>";
+		};
+		6E62D1001CC928A900395958 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6E62D1051CC9291300395958 /* Parser.h */,
+				6E62D1061CC9291300395958 /* Parser.m */,
+				6E62D1081CC92B4B00395958 /* FrequencyCalculator.h */,
+				6E62D1091CC92B4B00395958 /* FrequencyCalculator.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		6E62D1011CC928B200395958 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E62D1021CC928C200395958 /* Order.h */,
+				6E62D1031CC928C200395958 /* Order.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E62D0D71CC9288100395958 /* PopularPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E62D0FA1CC9288100395958 /* Build configuration list for PBXNativeTarget "PopularPizza" */;
+			buildPhases = (
+				6E62D0D41CC9288100395958 /* Sources */,
+				6E62D0D51CC9288100395958 /* Frameworks */,
+				6E62D0D61CC9288100395958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopularPizza;
+			productName = PopularPizza;
+			productReference = 6E62D0D81CC9288100395958 /* PopularPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E62D0F01CC9288100395958 /* PopularPizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E62D0FD1CC9288100395958 /* Build configuration list for PBXNativeTarget "PopularPizzaTests" */;
+			buildPhases = (
+				6E62D0ED1CC9288100395958 /* Sources */,
+				6E62D0EE1CC9288100395958 /* Frameworks */,
+				6E62D0EF1CC9288100395958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E62D0F31CC9288100395958 /* PBXTargetDependency */,
+			);
+			name = PopularPizzaTests;
+			productName = PopularPizzaTests;
+			productReference = 6E62D0F11CC9288100395958 /* PopularPizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E62D0D01CC9288100395958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MCS;
+				TargetAttributes = {
+					6E62D0D71CC9288100395958 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6E62D0F01CC9288100395958 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RAKE6MFKA7;
+						TestTargetID = 6E62D0D71CC9288100395958;
+					};
+				};
+			};
+			buildConfigurationList = 6E62D0D31CC9288100395958 /* Build configuration list for PBXProject "PopularPizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E62D0CF1CC9288100395958;
+			productRefGroup = 6E62D0D91CC9288100395958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E62D0D71CC9288100395958 /* PopularPizza */,
+				6E62D0F01CC9288100395958 /* PopularPizzaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E62D0D61CC9288100395958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E62D10E1CC93FC100395958 /* pizzas.json in Resources */,
+				6E62D0EB1CC9288100395958 /* LaunchScreen.storyboard in Resources */,
+				6E62D0E81CC9288100395958 /* Assets.xcassets in Resources */,
+				6E62D0E61CC9288100395958 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E62D0EF1CC9288100395958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E62D0D41CC9288100395958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E62D0E31CC9288100395958 /* ViewController.m in Sources */,
+				6E62D0E01CC9288100395958 /* AppDelegate.m in Sources */,
+				6E62D10A1CC92B4B00395958 /* FrequencyCalculator.m in Sources */,
+				6E62D1041CC928C200395958 /* Order.m in Sources */,
+				6E62D0DD1CC9288100395958 /* main.m in Sources */,
+				6E62D1071CC9291300395958 /* Parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E62D0ED1CC9288100395958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E62D0F61CC9288100395958 /* PopularPizzaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E62D0F31CC9288100395958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E62D0D71CC9288100395958 /* PopularPizza */;
+			targetProxy = 6E62D0F21CC9288100395958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E62D0E41CC9288100395958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E62D0E51CC9288100395958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E62D0E91CC9288100395958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E62D0EA1CC9288100395958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E62D0F81CC9288100395958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E62D0F91CC9288100395958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E62D0FB1CC9288100395958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PopularPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramiro.PopularPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E62D0FC1CC9288100395958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PopularPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramiro.PopularPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E62D0FE1CC9288100395958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopularPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcs.PopularPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopularPizza.app/PopularPizza";
+			};
+			name = Debug;
+		};
+		6E62D0FF1CC9288100395958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopularPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcs.PopularPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopularPizza.app/PopularPizza";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E62D0D31CC9288100395958 /* Build configuration list for PBXProject "PopularPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E62D0F81CC9288100395958 /* Debug */,
+				6E62D0F91CC9288100395958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E62D0FA1CC9288100395958 /* Build configuration list for PBXNativeTarget "PopularPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E62D0FB1CC9288100395958 /* Debug */,
+				6E62D0FC1CC9288100395958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E62D0FD1CC9288100395958 /* Build configuration list for PBXNativeTarget "PopularPizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E62D0FE1CC9288100395958 /* Debug */,
+				6E62D0FF1CC9288100395958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E62D0D01CC9288100395958 /* Project object */;
+}
